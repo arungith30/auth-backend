@@ -21,7 +21,7 @@ async function InsertVerifyUser(name,email,password){
             token:token 
         })
 
-        const activationLink=`http://localhost:4000/signup/${token}`
+        const activationLink=`https://auth-back-6p2k.onrender.com/signup/${token}`
         const content = `<h4>hi there</h4>
         <h5>Welcome</h5>
         <p>thank you for signing up</p>
